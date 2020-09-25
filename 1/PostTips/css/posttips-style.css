@@ -84,9 +84,9 @@ body{
 }
 .content-article a:hover{
     background-color: rgba(15,142,63,0.8);
-    -webkit-box-shadow: 10px 10px 99px 6px rgba(15,142,63,1);
-    -moz-box-shadow: 10px 10px 99px 6px rgba(15,142,63,1);
-    box-shadow: 10px 10px 99px 6px rgba(15,142,63,1);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.8);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.8);
+    box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.8);
     color: #fff;
 }
 .content-article a:active{
