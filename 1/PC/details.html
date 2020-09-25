@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>企业标准库</title>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="css/qybzk-style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner-wrap">
+            <div class="banner-bg">
+                <div class="con-banner">
+                    <h1>企业标准库</h1>
+                    <div class="search-wrap">
+                        <i class="icon i-search"></i>
+                        <input type="text" placeholder="请输入关键词,书名,编号">
+                        <button>搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="con-wrap">
+            <div>
+                <div class="tit-norm">
+                    <h2>标准号：GB 20178-2014</h2>
+                    <p>中文标准名称：土方机械 机器安全标签 通则</p>
+                    <p>英文标准名称：Earth-moving machinery—Machine safety labels—General principles</p>
+                    <p>标准状态：现行</p>
+                </div>
+                <div class="btns-norm">
+                    <button class="btn bgcolor-orange">在线预览</button>
+                    <button class="btn bgcolor-green">下载标准</button>
+                </div>
+                <table class="table tab-norm">
+                    <tr>
+                        <th width="20%">中国标准分类号（CCS）</th>
+                        <td>A22</td>
+                        <th width="20%">国际标准分类号（ICS）</th>
+                        <td>01.080.10</td>
+                    </tr>
+                    <tr>
+                        <th>发布日期</th>
+                        <td>2008-06-19</td>
+                        <th>实施日期</th>
+                        <td>2009-06-01</td>
+                    </tr>
+                    <tr>
+                        <th>主管部门</th>
+                        <td>国家标准化管理委员会</td>
+                        <th>归口单位</th>
+                        <td>全国颜色标准化技术委员会</td>
+                    </tr>
+                    <tr>
+                        <th>发布单位</th>
+                        <td colspan="3">中华人民共和国国家质量监督检验检疫总局、中国国家标准化管理委员会</td>
+                    </tr>
+                    <tr>
+                        <th>备注</th>
+                        <td colspan="3"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="js/jquery3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            //如果没有已选条件,则隐藏
+            if($("#filterSelected .ul-filter li").length == 0){
+                $("#filterSelected").remove();
+            }
+            
+            //已选条件的条目点击删除
+            $("#filterSelected .ul-filter li").click(function(){
+                $(this).remove();
+                if($("#filterSelected .ul-filter li").length == 0){
+                    $("#filterSelected").remove();
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+	color: red;
+}
+#zyz1{
+	color: aqua;
+}
+.sheet1{
+	color: blue;
+	text-shadow: black;
+	text-decoration: blink;
+	font-size: 2.5rem;
+	font-weight: 600;
+	
+}
+.rap{
+	margin: 60px;
+	display: grid;
+	grid-template-columns: repeat(200px,100px,200px);
+	grid-gap: 5px;
+	grid-template-rows: 50px 50px;
+}
+.one{
+	background: #19CAAD;
+}
+.two{
+	background: #8CC7B5;
+}
+.three{
+	background: #D1BA74;
+}
+.four{
+	background: #BEE7E9;
+}
+.five{
+	background: #E6CEAC;
+}
+.six{
+	background: #ECAD9E;
+}
+.item{
+	text-align: center;
+	font-size: 200%;
+	color: #fff;
+}

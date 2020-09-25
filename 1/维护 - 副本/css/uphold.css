@@ -1,0 +1,26 @@
+.weihu{
+	margin: 0 auto;
+	height: 100%;
+	width: 80%;
+	text-align: center;
+	line-height: 100px;
+}
+.weihu p{
+	font-size: 45px;
+	font-weight: 500;
+	padding-top: 38%;
+	color:#AFC6CA;
+}
+body{
+	background-image: url(../img/upload.png);
+	font-family: "仿宋";
+	background-size: cover;
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}

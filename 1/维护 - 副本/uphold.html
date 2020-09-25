@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/uphold.css"/>
+		<title></title>
+		<style type="text/css">
+			.parent {
+			  display: flex;
+			  flex-wrap: wrap;
+			}
+			
+			.item {
+			  flex: 0 1 150px;
+			  margin: 5px;
+			}
+			
+			.child {
+			  flex: 0 1 300px;
+			  flex: 1 1 300px;
+			  border: 1px solid red;
+			  background: lightpink;
+			  font-size: 2rem;
+			  text-align: center;
+			}
+			
+			body {
+			  font-family: system-ui, serif;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="parent">
+		  <div class="child item">1</div>
+		  <div class="child item">2</div>
+		  <div class="child item">3</div>
+		</div>
+	</body>
+</html>

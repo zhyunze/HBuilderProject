@@ -1,0 +1,61 @@
+.body_div{
+	padding-top:150px;
+	background-image: url(../img/图像%201.png);
+	background-position-x: 35%;
+	background-repeat: no-repeat;
+	background-color: #F8F8F0;
+}
+.textclass{
+	width: 998px;
+	margin:0 auto;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px #000000 solid;
+}
+.coldcolor{
+	color: #437BC5;
+	text-decoration: blink;
+	padding: 0;
+	width:10px;
+	float: none;
+}
+body{
+	background-color:#F8F8F0 ;
+}
+ul{
+	margin: 0 auto;
+	width: 1000px;
+	height: 40px;
+	background-color: #437BC5;
+}
+li{
+	display: inline;
+	float: left;
+	background-color: #437BC5;
+	height: 40px;
+	text-align: center;
+}
+a{
+	color: #FFFFFF;
+	width: 100px;
+	float: left;
+	font-family: "microsoft yahei";
+	text-decoration: blink;
+	padding:10px;
+}
+li:hover{
+	background-color: #285CB0;
+}
+p{
+	font-size: 14px;
+	line-height: 12px;
+	padding: 10px 10px;
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}

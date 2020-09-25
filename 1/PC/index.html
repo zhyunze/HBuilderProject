@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>企业标准库</title>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="css/qybzk-style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner-wrap">
+            <div class="banner-bg">
+                <div class="con-banner">
+                    <h1>企业标准库</h1>
+                    <div class="search-wrap">
+                        <i class="icon i-search"></i>
+                        <input type="text" placeholder="请输入关键词,书名,编号">
+                        <button>搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="con-wrap">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#normNew">最新标准</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#normLike">猜你喜欢</a>
+                </li>
+            </ul>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="normNew" class="tab-pane active">
+                    <div class="filter-wrap">
+                        <label class="tit-filter">
+                            <i class="icon i-filter"></i>
+                            <h5 class="color-green">筛选条件</h5>
+                        </label>
+                        <div class="con-filter">
+                            <h5>标准状态:</h5>
+                            <ul class="ul-filter">
+                                <li><a href="#">现行(999)</a></li>
+                                <li><a href="#">即将实施(88)</a></li>
+                                <li><a href="#">废止(7)</a></li>
+                            </ul>
+                        </div>
+                        <div class="con-filter">
+                            <h5>发布日期:</h5>
+                            <ul class="ul-filter">
+                                <li><a href="#">近三个月(9)</a></li>
+                                <li><a href="#">近一年(88)</a></li>
+                                <li><a href="#">近两年(777)</a></li>
+                                <li><a href="#">近三年(6666)</a></li>
+                                <li><a href="#">三年以上(55555)</a></li>
+                            </ul>
+                        </div>
+                        <div class="con-filter">
+                            <h5>标准类别:</h5>
+                            <ul class="ul-filter">
+                                <li><a href="#">法律法规(999)</a></li>
+                                <li><a href="#">国家标准(88)</a></li>
+                                <li><a href="#">行业标准(7)</a></li>
+                                <li><a href="#">地方标准(999)</a></li>
+                                <li><a href="#">团体标准(88)</a></li>
+                                <li><a href="#">邮政企业标准(7)</a></li>
+                                <li><a href="#">邮政企业暂行规范(999)</a></li>
+                                <li><a href="#">邮政企业管理制度文件(88)</a></li>
+                                <li><a href="#">国际标准(7)</a></li>
+                                <li><a href="#">其他(999)</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div id="filterSelected" class="filter-selected">
+                            <label class="tit-filter">
+                                <i class="icon i-selected"></i>
+                                <h5 class="color-green">已选条件</h5>
+                            </label>
+                            <ul class="ul-filter">
+                                <li>
+                                    <p>现行</p>
+                                    <i class="icon i-close"></i>
+                                </li>
+                                <li>
+                                    <p>近三个月</p>
+                                    <i class="icon i-close"></i>
+                                </li>
+                                <li>
+                                    <p>法律法规</p>
+                                    <i class="icon i-close"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="5%">序号</th>
+                                <th width="15%">标准号</th>
+                                <th width="9%">是否采标</th>
+                                <th>标准名称</th>
+                                <th width="9%">状态</th>
+                                <th width="9%">发布日期</th>
+                                <th width="9%">实施日期</th>
+                                <th width="9%">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td class="txt-left txt-bold color-darkgreen">GB/T38847-2020</td>
+                                <td>是</td>
+                                <td class="txt-left txt-bold color-grey">这里是标准名称这里是标准名称</td>
+                                <td>即将实施</td>
+                                <td>2020-08-18</td>
+                                <td>2020-08-30</td>
+                                <td>
+                                    <button class="bgcolor-green">查看详细</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagi-wrap">
+                        <div class="flex">
+                            <p>每页显示</p>
+                            <select>
+                                <option>10</option>
+                                <option>25</option>
+                                <option>50</option>
+                            </select>
+                            <p>条<span>|</span>共<strong>999</strong>条标准<span>|</span><strong>1</strong>/99页</p>
+                        </div>
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">上一页</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">下一页</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="normLike" class="container tab-pane fade">
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            //如果没有已选条件,则隐藏
+            if($("#filterSelected .ul-filter li").length == 0){
+                $("#filterSelected").remove();
+            }
+            
+            //已选条件的条目点击删除
+            $("#filterSelected .ul-filter li").click(function(){
+                $(this).remove();
+                if($("#filterSelected .ul-filter li").length == 0){
+                    $("#filterSelected").remove();
+                }
+            });
+        </script>
+    </body>
+</html>

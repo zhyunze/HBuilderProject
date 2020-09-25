@@ -1,0 +1,217 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'tahoma', 'arial', 'Hiragino Sans GB', 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+    font-size: 15px;
+    background-color: #F3F3F3;
+}
+th{
+	font-size: 16px;
+	font-weight: 600;
+}
+td{
+	font-weight: 300;
+}
+.header{
+	width: 100%;
+	height: 45px;
+	flex-flow: nowrap;
+	background-color: #006748;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+}
+.header-theme{
+	width: 70%;
+	background:url(../images/bannerbg.png) no-repeat bottom ;
+	height: 45px;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-content h1{
+	display: flex;
+	align-items: flex-end;
+	font-family: "Arial", sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 0 #ddd, 0 1px 10px rgba(0,0,0,.6), 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.2), 
+	0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 7px 10px rgba(0,0,0,.25), 0 15px 10px rgba(0,0,0,.2), 0 25px 15px rgba(0,0,0,.15);
+}
+.header-content h1 span{
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+}
+.header-searchbox{
+	align-items: center;
+}
+.header-searchbox input{
+	padding-left: 20px;
+	width: 240px;
+	height: 30px;
+	border: none;
+	border-radius: 100px 0 0 100px;
+	background-color: #fff;
+}
+.header-searchbox button{
+	height: 30px;
+	width: 50px;
+	border: none;
+	border-radius: 0 100px 100px 0;
+	cursor: pointer;
+	transition: all 1s;
+	background: url(../images/i-search.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	background-color: #fff;
+}
+
+.body{
+	padding-top: 50px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.body-wrapper{
+	margin: 2%;
+	padding: 1em;
+	width: 1190px;
+	border-radius: 1em;
+	box-shadow: 3px 3px #ddd;
+	background-color: #fff;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.body-hd{
+	width: 100%;
+	padding: 2em;
+	border-radius: 1em;
+	box-shadow: 3px 3px #ddd;
+	border-top: 1px solid #f3f3f3;
+	border-left: 1px solid #f3f3f3;
+	height: fit-content;
+	flex-flow: column wrap;
+	align-items: flex-start;
+	
+}
+.body-hd-filter{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.body-hd-tab{
+	width: 100%;
+	align-items: center;
+}
+.body-hd-filter span{
+	color: #333;
+	font-weight: 600;
+	font-size: 20px;
+	
+}
+.body-hd-tab ul{
+	display: flex;
+	flex-flow: row wrap;
+}
+.body-hd-tab li, span{
+	display: flex;
+	flex-flow: row nowrap;
+	flex-shrink: 0;
+	font-size: 16px;
+	color: #333;
+}
+.body-hd-tab li{
+	display: flex;
+	align-items: center;
+	height: 25px;
+	margin-left: 25px;
+	border-bottom: 0px dotted transparent;
+	font-weight: 300;
+	cursor: pointer;
+	transition: all 0.8s;
+	margin-bottom: 10px;
+}
+.body-hd-tab li:hover{
+	border-bottom: 1px dashed #000;
+	box-sizing: border-box;
+}
+.body-bd{
+	padding: 20px;
+	margin-top: 10px;
+	width: 100%;
+	border-top: 1px solid #F3F3F3;
+	border-left: 1px solid #F3F3F3;
+	box-shadow: 3px 3px #ddd;
+	border-radius: 1em;
+}
+.bd-tb{
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 1em;
+	border: 1px dashed #999;
+}
+.bd-tb th, td{
+	padding: 20px 5px;
+	border-bottom: 1px solid #ddd;
+	border-right: 3px dotted #ddd;
+	border-radius: 1em;
+}
+.th th:nth-child(1){
+	width: 5%;
+}
+.th th:nth-child(2){
+	width: 20%;
+}
+.th th:nth-child(3){
+	width: 10%;
+}
+.th th:nth-child(4){
+	width: 30%;
+}
+.th th:nth-child(5){
+	width: 10%;
+}
+.th th:nth-child(6){
+	width: 10%;
+}
+.th th:nth-child(7){
+	width: 10%;
+}
+.th th:nth-child(8){
+	width: 5%;
+}
+.hd-icon img{
+	width: 25px;
+}
+.hd-tab-third{
+	align-items: flex-start;
+}
+.icon{
+	display: block;
+	width: 15px;
+	height: 15px;
+}
+.stable{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-top: 2px dashed #DDDDDD;
+}
+.flex-layout{
+	display: flex;
+}
+.btn-hover:hover{
+	background-size: 25px 25px;
+}

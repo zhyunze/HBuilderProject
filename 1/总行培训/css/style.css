@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	outline: none;
+}
+body{
+	font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+	background-color: #048648;
+}
+.header{
+	width: 100%;
+	background:linear-gradient(to right,#A8CF02,#048648);
+	justify-content: center;
+	flex-flow: row nowrap;
+}
+.header h1{
+	font-family: "Arial", sans-serif;
+	font-size: 45px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 0 #aaa, 0 1px 10px rgba(0,0,0,.6), 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.2), 
+	0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 7px 10px rgba(0,0,0,.25), 0 15px 10px rgba(0,0,0,.2), 0 25px 15px rgba(0,0,0,.15);;
+}
+.layout{
+	display: flex;
+}
+.head-content{
+	width: 1000px;
+	height: 200px;
+	justify-content: center;
+	flex-flow: column nowrap;
+}
+.content{
+	width: 100%;
+	border-top: 14px solid #A8CF02;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.content-wrapper{
+	border-radius: 2em;
+	width: 1000px;
+	height: 100%;
+	background-color: #f3f3f3;
+}
+.content-wrapper-form{
+	padding-top: 60px;
+	padding-left: 30px;
+}
+.content-wrapper-form p{
+	font-weight: 600;
+	font-size: 19px;
+}
+.content-wrapper-form label{
+	font-size: 16px;
+}
+.content-wrapper-tab{
+	flex-flow: column wrap;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+.content-wrapper-tab label{
+	box-sizing: content-box;
+	display: flex;
+	flex-flow: row nowrap;
+	padding-bottom: 20px;
+}
+.content-wrapper-tab input{
+	width: 25px;
+	height: 25px;
+}
+.content-wrapper-tab .radiop{
+	line-height: 30px;
+	padding-left: 12px;
+	font-weight: 400;
+	display: flex;
+	font-size: 18px;
+	flex-flow: column;
+	justify-content: center;
+}
+.content-wrapper-subtab{
+	flex-flow: row;
+	justify-content: flex-start;
+}
+.content-wrapper-subtab label{
+	line-height: 40px;
+}
+.content-wrapper-subtab label:nth-child(2){
+	margin-left: 80px;
+}
+.content-wrapper-lines input{
+	box-sizing: border-box;
+	font-size: 16px;
+	padding: 10px;
+	height: 40px;
+	width: 100%;
+}
+.submit-button {
+	width: 270px;
+	height: 40px;
+	border-width: 0px;
+	border-radius: 3px;
+	background: #1E90FF;
+	cursor: pointer;
+	outline: none;
+	font-family: Microsoft YaHei;
+	color: white;
+	font-size: 17px;
+}
+.submit-button:hover { 
+	background: #5599FF;
+}
+.submitbtn{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+	padding-right: 30px;
+	padding-top: 40px;
+}
+.content-wrapper-radio{
+	width: 25px !important;
+	height: 25px !important;
+}
+.required{
+	color: red;
+	line-height: 100%;
+	font-size: 16px;
+}

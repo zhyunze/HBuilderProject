@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+body{
+	background-color: #f3f3f3;
+	width: 100%;
+}
+.bg{
+	background:url(../img/shiyou2.jpg) no-repeat center center fixed;
+	width:100%;
+}
+.blur_box{
+	z-index: 0;
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+.blur_box:before{
+	content: "";
+	position: absolute;
+	width:300%;
+	height:300%;
+	left: -100%;
+	top: -100%;
+	background:url(../img/shiyou2.jpg) no-repeat center center fixed;
+	filter: blur(20px);
+	z-index: -2;
+}
+.rgba{
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	width:100%;
+	height:100%;
+	z-index: -1;
+}
+.content-text{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	padding: 50px 30px;
+}
+.content-text ul{
+	display: flex;
+	flex-flow: row nowrap;
+	padding-top: 50px;
+}
+.content-text li{
+	box-sizing: border-box;
+	height: 65px;
+	width:200px;
+	margin: 0px 20px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 3em;
+	background-color: rgba(168,207,2,0.6);
+}
+.content-text a:hover li{
+	background-color: #048648;
+	color: #000;
+}
+.content-text a{
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 65px;
+	font-family: "仿宋";
+	font-weight: 800;
+}
+.header{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	height: 33%;
+	width: 100%;
+	background:linear-gradient(to right,#A8CF02,#048648);
+	border-bottom: 8px solid #5098A6;
+}
+.header-box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+.header-logo{
+	align-self: center;
+}
+.header-logo img{
+	width: 500px;
+}
+.header-sublogo{
+	background: url(../img/bannerbg.png)no-repeat right top;
+	background-size: 90%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 550px;
+	height: 400px;
+}
+.header-text{
+	z-index: 20;
+	color: rgba(0,0,0,0.5);
+	font-size: 40px;
+	font-weight: 700;
+	align-self: center;
+}
+.logo{
+	text-align: center;
+	background-color: #ffffff;
+}
+.logo p{
+	color: #32B16C;
+	font-size: 40px;
+	font-weight: 700;
+}
+.logo img{
+	width: 150px;
+}
+article{
+	width:100%;
+	height:300px;
+}

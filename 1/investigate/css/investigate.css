@@ -1,0 +1,20 @@
+.bodi{
+	background-color: #00FFFF;
+	width: 1200px;
+	margin: 0 auto;
+	height: 1000px;
+}
+.viewport{ 
+	max-width:640px; min-width:300px; margin:0 auto;
+}
+body{
+	font-size:62.5%;font-family:"Microsoft YaHei",Arial; overflow-x:hidden; overflow-y:auto;
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
