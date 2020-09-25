@@ -91,6 +91,9 @@ body{
 }
 .content-article a:active{
     background-color: rgba(15,142,63,0.4);
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.2);
+    -moz-box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.2);
+    box-shadow: 10px 10px 99px 6px rgba(15,142,63,0.2);
     color: #000;
 }
 .content-button-wrapper{
